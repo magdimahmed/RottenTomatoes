@@ -15,7 +15,6 @@ public class RottenTomatoesClient {
 
     public RottenTomatoesClient() {
         this.client = new AsyncHttpClient();
-
     }
 
     public void getBoxOfficeMovies(JsonHttpResponseHandler handler) {
